@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Premium</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inria+Serif:wght@300&family=Sevillana&family=Tangerine&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <a href="#" class="abrirmenu"onclick="abrir();">&equiv;</a>
+            
+         <div id="superior">
+
+            <h1>Coffee Premium</h1>
+            <nav>
+
+                <a href="#"class="fecharmenu" onclick="fechar();">&times;</a>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="quemsomos.html">Quem Somos</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="whatsapp">
+                <a href="https://wa.me/5511933660456">Faça o seu pedido</a>
+            </div>
+        </div>
+            <h2>Venha Provar do Nosso Café</h2>
+            <p>A Coffe Premium é a cafeteria mais famosa e amada de São Paulo</p>
+        </div>
+    </header>
+
+
+    <main>
+        <h2>Sejam bem-vindo a Coffee Premium!</h2> <br>
+        <p><span>Estamos localizados na Zona Sul de São Paulo, para oferecer a você, o melhor café da região.</span></p>
+        
+
+        <div id="imghome">
+            <img src="img/cafe2.jpg" alt="Uma Chícara de Café">
+            <img src="img/cafe7.jpeg" alt="Art Café">
+        
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div id="endereco">
+            <p>Rua Oscar Freire, 1367 - Pinheiros, São Paulo - SP</p>
+            <p>Cel.: 11-98882913 | 11933660356</p>
+        </div>
+        
+        <div id="redes">
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="twitter"></a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px";
+        }
+
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-210px";
+        }
+    </script>
+
+</body>
+</html>
